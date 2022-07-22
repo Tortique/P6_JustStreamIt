@@ -6,7 +6,7 @@ Ce projet est une application web en HTML, CSS et JS.
 ## Installation
 
 Télécharger et installez l'API comme indiqué sur leur readme
-Puis lancez l'API
+</br> Puis lancez l'API
 
 ## Usage
 

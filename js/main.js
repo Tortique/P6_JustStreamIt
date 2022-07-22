@@ -65,10 +65,11 @@ async function set_best_movie(id,json) {
     let image = movie.image_url;
     let title = movie.title;
     let description = movie.description;
+    let movie_id = movie.id;
 
     div.insertAdjacentHTML(
         "beforeend",
-        `<div class="bestest"><div class="title"><h1>${title}</h1><button>Lecture</button><p>${description}</p></div>
+        `<div class="bestest"><div class="title"><h1>${title}</h1><button onclick='open_modal(${movie_id})' >Lecture</button><p>${description}</p></div>
                 <div class="img"><img src='${image}'></div>`
     )
 }

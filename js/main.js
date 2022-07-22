@@ -3,7 +3,7 @@ const carousel_size = "7"
 const categories = [
     {id:'best', url:url_api + "?sort_by=-imdb_score&page_size=" + carousel_size},
     {id:'sci-fi', url:url_api + "?genre=Sci-Fi&sort_by=-votes&page_size=" + carousel_size},
-    {id:'depp', url:url_api+ "?actor=Johnny%20Depp&sort_by=-votes&page_size=" + carousel_size},
+    {id:'action', url:url_api+ "?genre=Action&sort_by=-votes&page_size=" + carousel_size},
     {id:'com', url:url_api + "?genre=Comedy&sort_by=-votes&page_size=" + carousel_size}
 ]
 init();

@@ -107,7 +107,7 @@ li a:hover {
 
 .title {
   width: 25%;
-  margin: 15px;
+  margin: 75px;
   color: aliceblue;
   text-align: center;
 }
@@ -124,14 +124,14 @@ li a:hover {
 }
 
 .img{
-  width:75%;
+  width:65%;
   height: 30vw;
 }
 
 .img img {
-  width: 100%;
+  width: 75%;
   height: 100%;
-  object-fit: fill;
+  object-fit: scale-down;
 
 }
 

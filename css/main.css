@@ -64,6 +64,7 @@ li a:hover {
   position: relative;
   padding-top: 50px;
   padding-bottom: 25px;
+  max-width: 100%;
 }
 .carouselBox {
   overflow-x: scroll;
@@ -136,6 +137,7 @@ li a:hover {
 }
 
 .movie {
+  min-width: 25%;
   width: 20vw;
   height: 15vw;
   display: inline-block;
@@ -159,7 +161,7 @@ li a:hover {
 }
 
 .movie:nth-of-type(1) {
-  margin-left: 50px;
+  margin-left: 1%;
 }
 
 .modal {
